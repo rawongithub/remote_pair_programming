@@ -2,8 +2,8 @@ A set of simple scripts for setting up a remote pair programming environment wit
 
 ### INSTALL
 
-Clone/download/copy scripts directory and CD into:
-
+Clone scripts directory and CD into:
+    $ git clone git@github.com/mamymo/remote_pp.git
     $ cd pair_programing
 
 Install required system packages and setup screen environment:
