@@ -1,0 +1,16 @@
+# screen caption
+caption always
+# # xterm scrollbar (Shift+PgUp or PgDown)
+termcapinfo xterm ti@:te@
+
+# enable multisession
+multiuser on
+
+# allow some accounts to use multisession
+#acladd USER1,USER2,...
+
+# show the windows line at the bottom of the screen
+hardstatus string "%1`"
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+
