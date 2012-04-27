@@ -8,7 +8,7 @@ fi
 
 ARGV="$@"
 USERS=${ARGV// /,}
-sed "s/\s*acladd.*/acladd $USERS/" ~/.screenrc > screenrc
+sed "s/\s*\#*\s*acladd.*/acladd $USERS/" ~/.screenrc > screenrc
 mv ~/.screenrc ~/.screenrc~
 mv screenrc ~/.screenrc
 
